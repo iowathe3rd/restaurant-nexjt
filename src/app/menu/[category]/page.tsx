@@ -11,7 +11,7 @@ import {Form, FormControl, FormField, FormLabel, FormMessage, FormSubmit} from "
 const CategoryPage = () => {
     return (
         <div className="flex container-m gap-6">
-            <div className={"flex flex-col gap-2 min-w-72"}>
+            <div className={"hidden md:flex flex-col gap-2 min-w-72"}>
                 <Heading>Filters</Heading>
                 <Form>
                     <FormField className="FormField" name="email">

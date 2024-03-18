@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer components {
+    .container {
+        @apply px-2
+    }
     .container-m {
         @apply container m-auto
     }

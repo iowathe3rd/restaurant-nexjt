@@ -1,10 +1,11 @@
 import React from 'react';
+import MenuGrid from "@/components/MenuGrid";
 
 const MenuPage = () => {
     return (
-        <div>
-            MenuPage
-        </div>
+        <>
+            <MenuGrid/>
+        </>
     );
 };
 

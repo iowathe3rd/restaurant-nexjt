@@ -23,7 +23,7 @@ export default function RootLayout({
         <body className={inter.className}>
         <Theme accentColor="gray">
             <Header/>
-            <main className="container-m">
+            <main>
                 {children}
             </main>
             <Footer/>

@@ -44,7 +44,7 @@ const Slider = () => {
                 <h1 className="text-5xl text-center uppercase p-4 md:p-10 md:text-6xl xl:text-7xl">
                     {data[currentSlide].title}
                 </h1>
-                <Button size={{xs: '2', md: '4', lg: '4'}}>Order now!</Button>
+                <Button size={{xs: '3', md: '4'}}>Order now!</Button>
             </motion.div>
             <motion.div
                 key={data[currentSlide].id}
